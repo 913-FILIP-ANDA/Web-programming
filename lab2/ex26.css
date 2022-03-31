@@ -1,0 +1,30 @@
+
+.a1:hover{
+    transform: translateY(96vh);
+}
+
+.a1{
+ top:20px;
+ height: 20px; 
+ position : relative; 
+ transition: all 4s;
+ background-color:#0000ff; 
+}
+
+.a2{
+width:100%;
+height:0vh;
+transition: height 4s;
+}
+
+.a1:hover + .a2{
+ background-color:#169999;
+ background-image: linear-gradient(#991616,#9ebd31,#181bb8);
+ height:96vh;
+}
+
+.a2:hover{
+background-color: #169999;
+background-image: linear-gradient(#991616,#9ebd31,#181bb8);
+height:0vh;
+}

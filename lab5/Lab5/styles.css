@@ -1,0 +1,12 @@
+table {
+    margin: 10rem auto auto;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    background-color: #5ce4e4;
+    text-align: center;
+    color: rgb(3, 0, 0);
+    font-size: 30px;
+}

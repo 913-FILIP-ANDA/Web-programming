@@ -1,0 +1,121 @@
+/* .container::after {
+    content:"\0020";
+    display:block;
+    height:0;
+    clear:both;
+    overflow:hidden;
+    visibility:hidden;
+} */
+
+#header{
+    position: relative;
+    background:#000;
+    color:#fff;
+    border-color:#666;
+    padding:5px;
+}
+
+.container{
+    margin-left: 23px;
+    margin-right: 100px;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-top:2px;
+    padding-bottom: 0px;
+    position: relative;
+    display: inline-block;
+}
+
+table, tr, th{
+    color: white;
+    vertical-align: center;
+    font-family: Arial,Helvetica,freesans,sans-serif;
+    font-style: normal;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 13px;
+}
+
+table{
+    border-collapse: collapse;
+    background-color: black;
+    line-height: 23px;
+    border-left: 0px;
+}
+
+
+th{
+    text-align: center;
+    padding-left: 20px; 
+    padding-top: 3px;
+    padding-right: 15px;
+    height: 100%;
+    border-right: 1px solid rgba(255,255,255,0.5);
+}
+
+
+.search-form{
+    border:none;
+    background:none;
+    height:1.846em;
+    min-height:24px;
+    font-weight:bold;
+    float:right;
+    padding:0 0 0 6px;
+    color:rgb(133, 28, 28);
+    padding-top: 1px;
+    padding-left: 0px;
+    width: 20px;
+    
+}
+
+input[type = text]{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    background-image: url('https://nav.files.bbci.co.uk/searchbox/42b955eee75a305e2e20ce2ce745e772/img/gel-icon-search-light.svg');
+    background-position: 5px 5px;
+    background-size: 9%; 
+    padding-left: 10px;
+    background-repeat: no-repeat;
+    border: 0;
+    height: 27px;
+}
+
+input::placeholder{
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+}
+
+#nav_links ul{
+    overflow:hidden;
+    padding-right: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.nav_elem{
+    float: left;
+    border-color:#666;
+}
+
+#statusbar{
+    margin-left:0;
+    color: solid white;
+}
+
+.headerDivider{
+    border-left: 1px solid rgba(255,255,255,0.3);
+    background: #16222c;
+    width: 1px;
+    height: 38px;
+    top: 0px;
+    left: 235px;
+    position: fixed;
+}
+
+body{
+    padding: 0;
+    font-size: 13px;
+    margin: 0;
+    font-family: Arial,Helvetica,freesans,sans-serif;
+}
